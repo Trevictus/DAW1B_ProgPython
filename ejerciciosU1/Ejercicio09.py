@@ -1,0 +1,2 @@
+
+print('El resultado de la suma de los tres dígitos es: ', float(input('Solicito un número por favor: ')) + float(input('Ahora escribe otro por favor: ')) + float(input('Y por último uno más, gracias: ')))
