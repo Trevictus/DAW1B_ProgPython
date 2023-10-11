@@ -1,3 +1,6 @@
+"""Esto es un coment"""
+
+
 num1 = int(input('Dame un nº: '))
 num2 = int(input('Dame otro: '))
 
@@ -6,6 +9,6 @@ if num1 == num2 :
     int(input('Dame un nº: '))
     int(input('Dame otro: '))
 elif num1 < num2 :
-    print('el nº menor es ', num1, '.' )
+    print('El nº menor es ', num1, '.' )
 elif num1 > num2 :
-    print('el nº menor es ', num2, '.')
+    print('El nº menor es ', num2, '.')
