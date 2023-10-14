@@ -1,10 +1,14 @@
 """Esto es un comentario."""
 
-nombre = str(input('Introduce tu nombre: '))
-edad = int(input('Introduce tu edad: '))
+nombre = input("Introduce tu nombre: ")
 
-if nombre == None :
-    print('!!!DESCONOCIDO!!!')
-    int(input('Introduce tu edad entre 0 y 125 :', 0 > edad <= 125))
-if nombre == nombre :
-    print('Te llamas ', nombre, 'y te quedan ', 125 - edad, 'por cumplir.')
+if nombre == "":
+    nombre = "Desconocido"
+edad = int(input("Introduce tu edad: "))
+while edad < 0 or edad > 125:
+        edad = int(input('Edad incorrecta. Por favor, introduzca una edad entre 0 y 125: '))
+
+print("Tu nombre es", nombre, "y tu edad es", edad, "años")
+
+tiempovida = 125 - edad
+print("Te quedan", tiempovida, "años por cumplir.")
