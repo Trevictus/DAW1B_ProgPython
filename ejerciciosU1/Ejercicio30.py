@@ -45,5 +45,9 @@ for i in range(numini, total + 1, incremento):
     elif i == total-incremento:
         variable += repr(i)+ "-"
     else:
-        variable +=repr(i)+ ".."
+        if i != total:
+            variable +=repr(i)+ ".."
+        else:
+            variable +=repr(i)
+
 print(variable)
