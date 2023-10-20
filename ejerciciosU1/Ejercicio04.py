@@ -1,3 +1,3 @@
-celsius = float(input("Celsius: "))
+celsius = float(input("¿Cuántos ºCelsius marca la temperatura? "))
 
-print((celsius * 1.8)+32)
+print("La temperatura en ºF son",(celsius * 1.8)+32)

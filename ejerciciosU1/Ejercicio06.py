@@ -1,5 +1,5 @@
 impfinal = float(input('Escriba el importe final del articulo: '))
-IVA = impfinal * 0.1
+IVA = impfinal * 0.21
 impsiniva = impfinal - IVA
 
 print('El importe del articulo sin iva es: ', impsiniva)

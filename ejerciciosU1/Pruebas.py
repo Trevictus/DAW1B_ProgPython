@@ -68,3 +68,8 @@ def fizzbuzz():
 
 
 fizzbuzz()
+
+
+num1 = "macadamia\n"
+num2 = 5
+print(num1 * num2)

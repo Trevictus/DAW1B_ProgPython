@@ -33,7 +33,7 @@ print("Dame las ", total, " notas del curso: ")
 
 media = 0
 cont = 1
-while(cont <= 10):
+while(cont <= 1):
     nota = float(input())
     media = media + nota
     cont = cont + 1
