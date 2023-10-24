@@ -1,4 +1,13 @@
 #Programa que te dá la bienvenida preguntandote por tu estado anímico#
+def chistes(chiste1, chiste2):
+    chiste1 = "Estando un pintor aburrido y sin trabajo, en un mural empezó a pintar la Luna, y del hambre que tenía, pintó un plato de aceitunas."
+    chiste2 = "Va una canina a un bar y pide un vaso de cerveza y una fregona exprimida..."
+    print(chiste1 + chiste2)
+
+
+
+
+
 
 nombre = input("--¿Cual es tu nombre?\n")
 print("--¡Buenas!, ", nombre, "¿Que tal estás hoy? ¿Bien, mal o regular?")
@@ -26,6 +35,6 @@ else:
     if respuesta2 == "Si" or respuesta2 == "si":
         print(chiste2)
     elif respuesta2 =="No" or respuesta2 == "no":
-        print("No te preocupes que ya te dejo.")
+        print("No te preocupes ya te dejo.")
     
 

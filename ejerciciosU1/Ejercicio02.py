@@ -1,4 +1,5 @@
-#Ejercicio 2
+#Ejercicio 2#
+#Este calcula el salario en función de las horas trabajadas#
 horas_trabajo = int(input("Introduce las horas trabajadas: "))
 coste_hora = float(input("Introduce el precio por hora: "))
 

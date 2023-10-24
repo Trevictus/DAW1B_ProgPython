@@ -73,3 +73,10 @@ fizzbuzz()
 num1 = "macadamia\n"
 num2 = 5
 print(num1 * num2)
+
+# Esto imprimirá los números pares del 0 al 9
+for i in range(10):
+    if i % 2 != 0:
+        print("aaaaah carahote")
+    else:
+        print(i)

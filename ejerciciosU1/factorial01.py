@@ -18,5 +18,6 @@ def factorial(num: int):
     return res
 
 
-numero = input("introduce nº: ")
+numero = int(input("introduce nº: "))
+
 print("Elfactorial de 4  es " + str(factorial(numero)))
